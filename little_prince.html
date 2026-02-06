@@ -2,9 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>Assignment 2</title>
+<!-- Simply puts image in HTML -->
+
+  <style>
+      body {
+          display: flex;
+          justify-content: center;
+          margin: 20px;
+      }
+      .book-container{
+          text-align: center;
+      }
+      .book-cover {
+          max-width: 300px;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+      }
+
+      .caption {
+          margin-top: 10px;
+          font-size: 1rem;
+          padding: 5px 10px;
+          max-width: 280px;
+          display: inline-block;
+      }
+      .underline {
+          text-decoration: underline;
+      }
+      .highlight-orange {
+          background-color: orange;
+      }
+      .red-text {
+          color: red;
+      }
+    </style>
 </head>
 <body>
-
+  <div class="book-container">
+    <img src="images/Assignent 1 - The Little Prince Book Cover.jpeg"
+         alt=""
+         class="book-cover">
+    <div class="caption">
+      As the little prince drooped off to sleep, I took him in my arms and set out walking once more.
+      <span class="underline">I felt deeply moved, and stirred. It seemed to me that I was carrying a very fragile treasure.</span>
+      <span class="highlight-orange">It seemed to me, even, that there was nothing more fragile on all Earth.</span>
+      In the moonlight I looked at his pale forehead, his closed eyes, his locks of hair that trembled in the wind, and I said to myself:
+      <span class="red-text">"What I see here is nothing but a shell. What is most important is invisible . . ."</span>
+      As his lips opened slightly with the suspicion of a half-smile, I said to myself, again:
+      <span class="red-text">"What moves me so deeply, about this little prince who is sleeping here, is his loyalty to a flower--the image of a rose that shines through his whole being like the flame of a lamp, even when he is asleep . . ."</span>
+      <span class="underline">I felt the need of protecting him, as if he himself were a flame that might be extinguished by a little puff of wind . . .</span>
+    </div>
+  </div>
 </body>
 </html>
